@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AutomationTest"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="0.000">
+  <properties />
+            <testcase name="tearDown" time="0.000" classname="base.TestBase">
+                <failure type="org.openqa.selenium.NoSuchWindowException"
+                  message="Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
+System info: host: &apos;Meet-PC&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
+Session ID: 16089aa9-1683-4dc2-bd8b-ef88eda53e44
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, ie.enableFullPageScreenshot=true, unexpectedAlertBehaviour=dismiss, ie.fileUploadDialogTimeout=3000, ie.forceShellWindowsApi=false, version=11, pageLoadStrategy=normal, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:42124/, ie.forceCreateProcessApi=false, proxy={proxyType=}, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=}]"
+              >
+<![CDATA[org.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Meet-PC', ip: '192.168.0.101', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Session ID: 16089aa9-1683-4dc2-bd8b-ef88eda53e44
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, ie.enableFullPageScreenshot=true, unexpectedAlertBehaviour=dismiss, ie.fileUploadDialogTimeout=3000, ie.forceShellWindowsApi=false, version=11, pageLoadStrategy=normal, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:42124/, ie.forceCreateProcessApi=false, proxy={proxyType=}, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=}]
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+  org.openqa.selenium.ie.InternetExplorerDriver.getScreenshotAs(InternetExplorerDriver.java:194)
+  utilities.capturescreenshotutility.captureScreenshot(capturescreenshotutility.java:28)
+  base.TestBase.tearDown(TestBase.java:114)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:606)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:329)
+  org.testng.SuiteRunner.run(SuiteRunner.java:261)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+  org.testng.TestNG.run(TestNG.java:1048)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

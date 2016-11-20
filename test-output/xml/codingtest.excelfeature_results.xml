@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DataDrivenapprochTesting"
+           tests="11"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.013">
+  <properties />
+  
+  
+            <testcase name="addCountry" time="0.001" classname="codingtest.excelfeature" />
+                <testcase name="addCountry" time="0.001" classname="codingtest.excelfeature" />
+                <testcase name="addCountry" time="0.001" classname="codingtest.excelfeature" />
+                <testcase name="addCountry" time="0.001" classname="codingtest.excelfeature" />
+                <testcase name="addCountry" time="0.001" classname="codingtest.excelfeature" />
+                <testcase name="addCountry" time="0.001" classname="codingtest.excelfeature" />
+                <testcase name="addCountry" time="0.001" classname="codingtest.excelfeature" />
+                <testcase name="addCountry" time="0.001" classname="codingtest.excelfeature" />
+                <testcase name="addCountry" time="0.002" classname="codingtest.excelfeature" />
+                <testcase name="addCountry" time="0.002" classname="codingtest.excelfeature" />
+                <testcase name="addCountry" time="0.001" classname="codingtest.excelfeature" />
+      
+</testsuite>
